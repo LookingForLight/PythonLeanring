@@ -1,41 +1,41 @@
--test:
-  name: trains tips
-  request:
-    url: "https://m.ly.com/uniontrain/trainapi/GetTrainActivityNotice"
-    method: "get"
-    header:
-      Accept: "application/json"
-      Accept-Encoding: "gzip, deflate, br"
-      Accept-Language: "zh-CN,zh;q=0.9"
-      Content-Type: "application/x-www-form-urlencoded"
-      Host: "m.ly.com"
-    body:
-      para:
-        headtime: 1515295965.428
-        memberId: ""
-        platId: 432
-        requestType: 3
-        headct: 1
-        headus: 3
-        headver: "2.14.0.2"
+- test:
+    name: trains tips1
+    request:
+      url: "https://m.ly.com/uniontrain/trainapi/GetTrainActivityNotice"
+      method: "get"
+      header:
+        Accept: "application/json"
+        Accept-Encoding: "gzip, deflate, br"
+        Accept-Language: "zh-CN,zh;q=0.9"
+        Content-Type: "application/x-www-form-urlencoded"
+        Host: "m.ly.com"
+      body:
+        para:
+          headtime: 1515295965.428
+          memberId: ""
+          platId: 432
+          requestType: 3
+          headct: 1
+          headus: 3
+          headver: "2.14.0.2"
 
--test:
-  name: trains tips2
-  request:
-    url: "https://m.ly.com/uniontrain/trainapi/GetTrainActivityNotice"
-    method: "get"
-    header:
-      Accept: "application/json"
-      Accept-Encoding: "gzip, deflate, br"
-      Accept-Language: "zh-CN,zh;q=0.9"
-      Content-Type: "application/x-www-form-urlencoded"
-      Host: "m.ly.com"
-    body:
-      para:
-        headtime: 1515295965.428
-        memberId: ""
-        platId: 432
-        requestType: 3
-        headct: 1
-        headus: 3
-        headver: "2.14.0.2"
+- test:
+    name: trains tips2
+    request:
+      url: "https://m.ly.com/uniontrain/trainapi/GetTrainActivityNotice"
+      method: "get"
+      header:
+        Accept: "application/json"
+        Accept-Encoding: "gzip, deflate, br"
+        Accept-Language: "zh-CN,zh;q=0.9"
+        Content-Type: "application/x-www-form-urlencoded"
+        Host: "m.ly.com"
+      body:
+        para:
+          headtime: 1515295965.428
+          memberId: ""
+          platId: 432
+          requestType: 3
+          headct: 1
+          headus: 3
+          headver: "2.14.0.2"
